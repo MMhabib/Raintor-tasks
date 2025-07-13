@@ -68,7 +68,7 @@ const Users = () => {
 
   return (
     <div className="grid grid-cols-2 gap-10">
-      <h1>User Feed</h1>
+      
 
       {users.map(user => (
         <Card key={user.id} user={user} />
